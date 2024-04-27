@@ -1,0 +1,11 @@
+git checkout main
+
+git commit -m "Merged master into main"
+
+git push origin main
+
+git merge master --allow-unrelated-histories
+
+git fetch origin
+
+git branch
