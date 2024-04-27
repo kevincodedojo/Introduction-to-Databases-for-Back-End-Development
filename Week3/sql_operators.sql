@@ -21,5 +21,5 @@ WHERE tax * 2 = 4000;
 -- division operator
 SELECT allowance / salary * 100 FROM employee;
 
--- modulus operator
+-- modulus operator updates
 SELECT hours % 2 FROM employee;
