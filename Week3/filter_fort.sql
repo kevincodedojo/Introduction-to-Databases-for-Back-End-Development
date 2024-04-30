@@ -44,3 +44,10 @@ select CustomerID, FirstName, LastName, City, State, Country from Customer WHERE
 
 SELECT FirstName, Country FROM Customer WHERE Country = "Canada" ORDER BY FirstName;
 
+
+-- Using SELECT DISTINCT on a single column
+select billingCountry from invoice order by billingCountry;
+
+select distinct billingCountry from invoice order by billingCountry;
+
+select count(distinct billingCountry) from invoice;
